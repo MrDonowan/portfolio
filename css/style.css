@@ -1,0 +1,91 @@
+:root {
+    --light: #eee;
+    --dark: #333333;
+    --gold: gold;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 100%;
+    background-image: url(../img/dev1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    /* background-image: url(../img/dev1.jpg);
+    background-size: cover;
+    background-position: center; */
+    
+    max-width: 80%;
+    margin: auto;
+}
+
+.main-header {
+    height: 15vh;
+}
+
+.info {
+    height: 75vh;
+    padding: 50px 0;
+    color: var(--light);
+}
+
+.info p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.btn {
+    border: 2px solid  var(--light);
+    color: var(--light);
+    padding: 10px;
+}
+
+.btn:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+}
+
+.main-footer {
+    height: 10vh;
+    background-color: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding-top: 3.5vh;
+    width: 100vw;
+}
+
+span {
+    color: var(--gold);
+}
+
+strong {
+    font-size: 1.8rem;
+}
