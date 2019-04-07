@@ -1,11 +1,11 @@
 :root {
     --light: #eee;
-    --dark: #333333;
+    --dark: #965;
     --gold: gold;
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 * {
@@ -24,13 +24,10 @@ a {
     background-position: center;
     overflow: hidden;
     height: 100vh;
+    margin-bottom: -120px;
 }
 
 .container {
-    /* background-image: url(../img/dev1.jpg);
-    background-size: cover;
-    background-position: center; */
-    
     max-width: 80%;
     margin: auto;
 }
@@ -47,7 +44,7 @@ a {
 
 .info p {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1rem;
 }
 
@@ -65,21 +62,27 @@ a {
 .btn {
     border: 2px solid  var(--light);
     color: var(--light);
-    padding: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
 }
 
 .btn:hover {
-    border-color: var(--gold);
-    color: var(--gold);
+    border-color: var(--dark);
+    color: var(--dark);
 }
 
 .main-footer {
-    height: 10vh;
     background-color: var(--dark);
     color: var(--light);
-    text-align: center;
-    padding-top: 3.5vh;
-    width: 100vw;
+}
+
+.footer-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 10vh;
 }
 
 span {
