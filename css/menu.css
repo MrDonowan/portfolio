@@ -1,3 +1,4 @@
+/* Menu Starts */
 @media(max-width: 700px) {
     .toggler {
         display: block;
@@ -151,3 +152,4 @@
         transition: color 0.4s ease;
     }
 }
+/* End of menu */
