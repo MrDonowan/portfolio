@@ -1,9 +1,3 @@
-:root {
-    --light: #eee;
-    --dark: #965;
-    --gold: gold;
-}
-
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -44,7 +38,7 @@ a {
 .info {
     height: 75vh;
     padding: 50px 0;
-    color: var(--light);
+    color: #eee;
 }
 
 .info p {
@@ -66,20 +60,20 @@ a {
 }
 
 .btn {
-    border: 2px solid  var(--light);
-    color: var(--light);
+    border: 2px solid  #eee;
+    color: #eee;
     padding: 10px 20px;
     font-weight: 600;
 }
 
 .btn:hover {
-    border-color: var(--dark);
-    color: var(--dark);
+    border-color: #965;
+    color: #965;
 }
 
 .main-footer {
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: #965;
+    color: #eee;
 }
 
 .footer-content {
@@ -92,7 +86,7 @@ a {
 }
 
 .info span {
-    color: var(--gold);
+    color: gold;
 }
 
 strong {
