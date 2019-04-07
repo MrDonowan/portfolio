@@ -1,3 +1,4 @@
+/* for updates */
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -67,12 +68,11 @@ a {
 }
 
 .btn:hover {
-    border-color: #965;
-    color: #965;
+    border-color: gold;
 }
 
 .main-footer {
-    background-color: #965;
+    background-color: rgba(24, 39, 51, 0.85);
     color: #eee;
 }
 
