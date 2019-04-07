@@ -4,7 +4,7 @@
     --gold: gold;
 }
 
-html {
+body {
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -17,6 +17,11 @@ html {
 a {
     text-decoration: none;
 }
+
+.toggler {
+    display: none;
+}
+
 .wrapper {
     max-width: 100%;
     background-image: url(../img/dev1.jpg);
@@ -49,8 +54,9 @@ a {
 }
 
 .nav-list {
-    display: flex;
     height: 15vh;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -85,7 +91,7 @@ a {
     height: 10vh;
 }
 
-span {
+.info span {
     color: var(--gold);
 }
 
