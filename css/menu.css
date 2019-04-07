@@ -108,7 +108,7 @@
     }
     
     .menu-wrap .menu > div {
-        background: var(--overlay-color);
+        background: rgba(24, 39, 51, 0.85);
         border-radius: 50%;
         width: 200vw;
         height: 200vw;
@@ -135,9 +135,14 @@
     
     .menu-wrap .menu > div > div > ul > li {
         list-style: none;
-        color: #ffffff;
+        color: #fff;
         font-style: 1.5rem;
         padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .menu-wrap .menu > div > div > ul > li:first-child {
+        margin-top: -8rem;
     }
     
     .menu-wrap .menu > div > div > ul > li > a {

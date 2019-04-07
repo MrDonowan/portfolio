@@ -67,11 +67,11 @@ a {
 }
 
 .btn:hover {
-    border-color: #965;
+    border-color: gold;
 }
 
 .main-footer {
-    background-color: #965;
+    background-color: rgba(24, 39, 51, 0.85);
     color: #eee;
 }
 
@@ -89,5 +89,5 @@ a {
 }
 
 strong {
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
